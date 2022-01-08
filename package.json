@@ -1,0 +1,28 @@
+{
+  "name": "booking_care",
+  "version": "1.0.0",
+  "description": "Build RESTful API web BookingCare",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "keywords": [
+    "api",
+    "booking-care",
+    "nodejs",
+    "express"
+  ],
+  "author": "Danh Tran",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "nodemon": "^2.0.15"
+  }
+}
