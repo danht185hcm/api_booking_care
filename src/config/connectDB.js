@@ -3,6 +3,7 @@ import { Sequelize } from 'sequelize';
 const sequelize = new Sequelize('hoidanit', 'root', null, {
   host: 'localhost',
   dialect: 'mysql',
+  logging: false,
 });
 
 const connectDB = async () => {
